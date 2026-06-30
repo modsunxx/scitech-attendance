@@ -184,7 +184,7 @@ function App() {
             <div className="w-8 h-8 bg-yellow-400 rounded-lg flex items-center justify-center font-bold text-neutral-900 shadow-lg shadow-yellow-400/20">
               SC
             </div>
-            <h1 className="font-bold text-lg tracking-wide bg-gradient-to-r from-neutral-900 to-neutral-600 bg-clip-text text-transparent">
+            <h1 className="font-bold text-lg tracking-wide bg-linear-to-r from-neutral-900 to-neutral-600 bg-clip-text text-transparent">
               SCITECH Attendance
             </h1>
           </div>
@@ -255,7 +255,7 @@ function App() {
                   {activeEvent ? activeEvent.name : "ขณะนี้ไม่มีกิจกรรม"}
                 </h1>
 
-                <div className="bg-neutral-50 p-6 rounded-xl border border-neutral-100 flex flex-col items-center justify-center min-h-[200px] text-center">
+                <div className="bg-neutral-50 p-6 rounded-xl border border-neutral-100 flex flex-col items-center justify-center min-h-50 text-center">
                   {!activeEvent ? (
                     <p className="text-neutral-500">
                       ยังไม่มีกิจกรรมที่เปิดให้เช็คชื่อในระบบ
